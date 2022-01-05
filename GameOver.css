@@ -1,0 +1,96 @@
+
+#overlay button{
+  background-color: var(--bg-color-1);
+  color:var(--white);
+  border: none;
+  border-radius: 5px;
+  padding:0.6rem;
+  margin:0 auto;
+  font-size: 30px;
+  top: 20px;
+  right: 30px;
+  position: absolute;
+  text-align: center;   
+}
+
+#popup{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-color-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  visibility:hidden ;
+}  
+  
+#overlay{
+  background-color: #221f1f;
+  color:var(--white);
+  width:80%;
+  height: 70%;
+  position: relative;
+  top:0;
+  left:0;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 200px;
+} 
+#overlay input[type="button"] {
+  color: var(--black);
+  width: 15rem;
+  text-transform: capitalize;
+}
+#overlay p{
+  font-size: 30px;
+  padding: 5px;
+  font-family: var(--font-1);
+}
+/* ------############# mobile #############-----------*/
+
+
+@media (max-width: 414px) {
+  #overlay{
+  padding: 20px;
+  width:60%;
+  height: 70%;
+  }
+
+  #overlay button{
+    padding:0.6rem;
+    font-size: 10px;
+    top: 3px;
+    right: 10px; 
+  }
+
+  #overlay input[type="button"] {
+    width: 9rem;
+    margin-left:2px;
+   
+  }
+}
+
+/* ------############# Ipad Pro #############-----------*/
+@media  screen and (min-width: 540px) and (max-width: 768px) {
+  #overlay{
+    padding: 10px;
+    width:60%;
+    height: 70%;
+    }
+  
+    #overlay button{
+      padding:0.6rem;
+      font-size: 10px;
+      top: 3px;
+      right: 10px; 
+    }
+    #overlay input[type="button"] {
+      width: 10rem;
+      margin-left:2px;
+     
+    }
+   
+}

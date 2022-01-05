@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="GameOver.css">
+    <title>Snake game</title>
+</head>
+<body>
+    <header>
+        <h1>Snake Game </h1>  
+    </header>
+    <main>
+        <div class="start">
+            <h2>Click start game</h2>
+            <input type="button" id="start" value="Start Game">
+        </div>
+        <div id="ContentContainer">
+            <canvas id="CanvasScreen" width="500" height="400"></canvas>
+        </div>
+        <div class="button-pad">
+            <input type="button" id="left" value="left">
+            <input type="button" id="right"  value="right">
+            <input type="button" id="up" value="up">
+            <input type="button" id="down" value="down">
+    
+        </div>
+    </main>
+   
+    <div id="popup">
+        <div id="overlay">
+        <button id="close"> Close X</button>
+            <h1> Game Over </h1>
+            <div>
+                <p> Your Score was : <span id="score"></span></p>
+                <p id="comments"></p>
+                
+            </div>
+            <input type="button" value="Start game again" onClick="window.location.reload();">
+        </div>
+       
+    </div>
+    <div class="wrapper">
+        <footer>
+        <div class="footerWrapper">
+            
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/femi-adesola-oyinloye-106454145/" target="_blank" rel="noreferrer" class="linkedin">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="#1" class="facebook">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/FemiAdesola" target="_blank" rel="noreferrer" class="github">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                    
+                </div>
+               
+                <p>Femi Adesola &copy; 2021 </p>
+                </div>
+                
+        </footer>
+    </div>
+    <script src="./snake-game.js"></script>
+</body>
+</html>
+
+<!-- http://jsfiddle.net/WKQff/1/ -->
