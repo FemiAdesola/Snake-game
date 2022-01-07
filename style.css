@@ -142,6 +142,23 @@ footer{
     color: var(--ancient-1);
 }
 
+/* button control */
+.button-pad i:hover{
+    color: var(--br-6);
+}
+
+.button-pad i{
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--yellow-5);
+}
+.button-pad button{
+    background-color: var(--black);
+    border: none;
+    margin: 10px;
+}
+
+/* input button */
 input[type="button"] {
     background-color: var(--yellow-5);
     color: var(--black);
