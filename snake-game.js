@@ -81,7 +81,7 @@ document.getElementById("start").addEventListener("click",function Snake(){
             ?" You almost get to 100 😁"
             :(score>=90 && score <=150)
             ?"You are doing great 👏 "
-            :(score>=150 && score <=2000)
+            :(score>=150 && score <=200)
             ?"Well done 🍕"
             :(score>=200 && score <=300)
             ?"WOW you are game Player 🍷 "
